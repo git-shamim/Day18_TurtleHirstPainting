@@ -1,22 +1,10 @@
 
 import random
 from turtle import Turtle, Screen, colormode
+
 tim = Turtle()
 screen = Screen()
 colormode = colormode(255)
-
-"""
-import colorgram
-colors = colorgram.extract('image.jpg', 30)
-rgb_colors = []
-for color in colors:
-    r = color.rgb.r
-    g = color.rgb.g
-    b = color.rgb.b
-    new_color = (r, g, b)
-    rgb_colors.append(new_color)
-print(rgb_colors)
-"""
 
 color_list = [(244, 213, 94), (60, 98, 151), (222, 142, 75), (125, 84, 57), (123, 174, 206), (199, 147, 174),
               (144, 72, 101), (200, 78, 112), (155, 135, 66), (231, 88, 60), (139, 189, 139), (47, 166, 117),
